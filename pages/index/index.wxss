@@ -1,0 +1,27 @@
+.classify{
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: -0.5rem;
+  background-color:#EFEFEF;
+  color: black
+  
+}
+.soft_one{
+  margin-top: 0.5rem;
+  line-height: 5rem;
+  display: flex;
+  border-bottom: 2px solid #EFEFEF
+}
+
+.soft_name{
+  width: 70%;
+}
+.soft_img{
+  width: 50%;
+  text-align: right;
+  height: 5rem
+}
+.img{
+  width: 100%;
+  height: 5rem
+}

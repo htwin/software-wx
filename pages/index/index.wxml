@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view>
+  <block wx:for="{{classifySofts}}" wx:key="classifyId">
+    <view>
+      <view class="classify">
+        {{item.classifyName}}
+      </view>
+      <block wx:for="{{item.softs}}" wx:key="id">
+        <view class="soft_one">
+          <view class="soft_name">
+           {{item.name}}
+          </view>
+          <view class="soft_img">
+           <image class="img" src="{{item.pic}}" ></image>
+          </view>
+         
+        </view>
+       
+      </block>
+    </view>
+  </block>
+</view>
+
